@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "chrome-extension://ceolekbajholdkellgpglhkgoalehppe/edit.js"
+        }
+      },
+      "condition": {
+        "regexFilter": "https://lms.cuk.edu/lib/requirejs\\.php.*\\/core\\/first\\.js",
+        "resourceTypes": [
+          "script"
+        ]
+      }
+    }
+  ]

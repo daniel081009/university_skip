@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension",
+  "version": "1.0",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "scripting",
+    "webNavigation",
+    "declarativeNetRequest"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "redirect_rule",
+        "enabled": true,
+        "path": "/redirect_rule.json"
+      }
+    ]
+  }
+}
